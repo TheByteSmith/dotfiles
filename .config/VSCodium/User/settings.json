@@ -1,0 +1,39 @@
+{
+  // Interface layout
+  "workbench.sideBar.location": "right",
+  "workbench.layoutControl.enabled": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "window.commandCenter": false,
+  "workbench.statusBar.visible": true,
+
+  // Privacy & Telemetry
+  "telemetry.telemetryLevel": "off",
+
+  // Disable AI / Copilot features (vs code)
+  "chat.disableAIFeatures": true,
+  "chat.commandCenter.enabled": false,
+
+  // Editor behavior
+  "files.autoSave": "afterDelay",
+  // "editor.defaultFormatter": "esbenp.prettier-vscode", // vscode
+  "editor.defaultFormatter": "prettier.prettier-vscode", // vscodium
+  "editor.formatOnPaste": true,
+  "editor.wordWrap": "on",
+  "editor.mouseWheelZoom": true,
+  "editor.scrollBeyondLastLine": false,
+  "editor.renderWhitespace": "none",
+  "editor.minimap.enabled": false,
+  "editor.minimap.renderCharacters": false,
+
+  // Font & appearance
+  "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.4,
+
+  // Git & Explorer
+  "git.autofetch": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "workbench.colorTheme": "Bearded Theme Vivid Black"
+}
