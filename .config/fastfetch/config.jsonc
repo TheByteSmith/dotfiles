@@ -4,8 +4,8 @@
     "type": "auto",
     "padding": {
       "top": 2,
-      "left": 2,
-    },
+      "left": 2
+    }
   },
   "display": {
     "separator": "  ➜  "
@@ -31,6 +31,12 @@
       "type": "uptime",
       "key": "Uptime",
       "keyColor": "blue"
+    },
+    {
+      "type": "command",
+      "key": "OS Age",
+      "keyColor": "blue",
+      "text": "echo $(( ($(date +%s) - $(stat -c %W /)) / 86400 )) days"
     },
     {
       "type": "packages",
@@ -86,7 +92,7 @@
       "keyColor": "magenta",
       "compact": true
     },
-"break",
+    "break",
     {
       "type": "colors",
       "symbol": "circle"
